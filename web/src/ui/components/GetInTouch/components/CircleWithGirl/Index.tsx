@@ -6,7 +6,7 @@ const CircleWithGirl = () => {
     <div className='circle-with-girl-wrapper'>
       <div className='green-rectangle'/>
       <img 
-        alt="it wasn't possible to load this image" 
+        alt="it wasn't possible to load" 
         className='girl'
         src={ girl }
       />

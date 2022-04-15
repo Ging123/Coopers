@@ -25,7 +25,7 @@ const LoginContainer = (props:props) => {
       <div className='login-container'>
         <div className='close' onClick={ props.close }>close</div>
         <img 
-          alt="It wasn't possible to load this image"    
+          alt="It wasn't possible to load"    
           className='girl-image'      
           src={ girl }
         />

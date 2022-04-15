@@ -27,7 +27,7 @@ const SlideWrapper = () => {
 function createImage(src:string, index:number) {
   return (
     <img
-      alt="it wasn't possible to load this image"
+      alt="it wasn't possible to load"
       className={index === 0 ? "show" : "hide"}
       key={ index }
       src={ src }
